@@ -14,7 +14,7 @@ quickly dive into enumeration:
 
 
 
-# ::::::i've run  another tool call dirb for hidden dicrectories searching::::
+# ::::::i've run  another tool called dirb for hidden dicrectories searching::::
 
 ![2024-09-16_21-05](https://github.com/user-attachments/assets/c144594d-2def-46b1-a02a-61d3571ea09a)
 
