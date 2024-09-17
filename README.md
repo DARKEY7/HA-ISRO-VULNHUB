@@ -77,6 +77,7 @@ then i go to cd root then final.txt and get the flag
 
 
 
+![Screenshot 2024-09-17 130714](https://github.com/user-attachments/assets/234cc51e-4eb8-4b4b-8392-32256f0ae57d)
 
 
 
