@@ -58,14 +58,22 @@ THIRDL-LY :: equivalently i use nc -lvnp 1234 for getting the shell
  
 
    ![2024-09-17_12-54](https://github.com/user-attachments/assets/782b7a8d-7892-4d0d-8d98-9ce0bcccfcd1)
-
+    
+    
+    
+now i've  create a user called darkey and passwd will be-HA:ISRO
   ![2024-09-17_12-58](https://github.com/user-attachments/assets/aa2c15a7-995d-4db5-9f12-91737df53902)
 
-  now i've  create a user called darkey and passwd will be-HA:ISRO
+  
+
+then i simp-lly check weather the new user created or not 
 
 
+![2024-09-17_13-05](https://github.com/user-attachments/assets/8e8925e2-9e46-4515-b8bd-de397c2522f3)
 
 
+then accessing the root previledge using new user
+then i go to cd root then final.txt and get the flag
 
 
 
